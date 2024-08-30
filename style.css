@@ -1,0 +1,139 @@
+#top {
+    background-color: #dbe4d5;
+}
+#h1 {
+    margin-bottom: 100px;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #37615c;
+    font-size: 40;
+    font-family: georgia;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #37615c;
+    font-size: 40;
+    font-family: georgia;
+    font-weight: bold;
+}
+.nav-item {
+    font-size: 20px;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("dots.png");
+}
+h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Odibee Sans", cursive;
+    color: #e4fa1b;
+    font-size: 15em; /* Adjust as needed */
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional text shadow */
+    margin: 0;
+}
+.row {
+    margin-bottom: 100px;
+}
+p {
+    font-size: 40;
+    font-family: georgia;
+    font-weight: bold;
+}
+#foot {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#blog1::first-letter {
+    font-size: 50px;
+    color: red;
+}
+#foot2 {
+    margin-top: 50px;
+    color: white;
+}
+form {
+    margin-top: 50px;
+}
+#bottom {
+    padding-top: 23px;
+    background-color: grey;
+}
+.alert {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    display: none;
+}
+.carousel-control-next-icon {
+    background-image: url("next.svg");
+}
+.carousel-control-prev-icon {
+    background-image: url("back.svg");
+}
+.main-image {
+    background-image: url("main_cropped.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px; /* Adjust this value to your preferred height */
+    width: 100%;
+    margin-bottom: 50px;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-me {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    margin: 20px;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.person img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.person h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.person p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.two-columns {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#second-column {
+    border-left: 5px solid black;
+}
