@@ -26,11 +26,11 @@
     background-image: url("dots.png");
 }
 h1 {
-    padding-top: 100px;
+    padding-top: 175px;
     text-align: center;
     font-family: "Odibee Sans", cursive;
     color: white;
-    font-size: 15em; /* Adjust as needed */
+    font-size: 10em; /* Adjust as needed */
     z-index: 2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional text shadow */
     margin: 0;
