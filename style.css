@@ -28,12 +28,18 @@
 h1 {
     padding-top: 175px;
     text-align: center;
-    font-family: "Odibee Sans", cursive;
-    color: white;
+    font-family: "Dancing Script", cursive;
+    color: black;
     font-size: 10em; /* Adjust as needed */
     z-index: 2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional text shadow */
     margin: 0;
+}
+#p {
+    margin-top: -100px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5em;
 }
 .row {
     margin-bottom: 100px;
@@ -68,18 +74,12 @@ form {
     color: white;
     display: none;
 }
-.carousel-control-next-icon {
-    background-image: url("next.svg");
-}
-.carousel-control-prev-icon {
-    background-image: url("back.svg");
-}
 .main-image {
-    background-image: url("main_cropped.png");
+    background-image: url("background.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px; /* Adjust this value to your preferred height */
+    height: 1000px; /* Adjust this value to your preferred height */
     width: 100%;
     margin-bottom: 50px;
 }
@@ -92,6 +92,10 @@ form {
     text-align: center;
 }
 
+.container1 {
+    /* display: flex; */
+    justify-content: center;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -136,4 +140,36 @@ form {
 
 #second-column {
     border-left: 5px solid black;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the heading */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.image-container {
+    flex: 0 0 auto; /* Prevent the image from shrinking */
+}
+
+.img-fluid {
+    max-width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+
+.text-container {
+    flex: 1; /* Allow the text container to take the remaining space */
+    margin-left: 20px; /* Space between image and text */
+}
+
+.card-title {
+    margin-bottom: 10px; /* Adjust spacing below heading as needed */
+}
+
+.card-text {
+    text-align: left; /* Align text to the left */
+}
+#test {
+    margin-top: 45px;
 }
